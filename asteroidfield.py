@@ -1,7 +1,7 @@
 import random
 from collections.abc import Callable
 
-import pygame
+import pygame # type: ignore [import]
 from asteroid import Asteroid
 from constants import (
     ASTEROID_KINDS,

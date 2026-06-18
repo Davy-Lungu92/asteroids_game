@@ -1,6 +1,6 @@
 import sys
 
-import pygame
+import pygame # type: ignore [import]
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from constants import SCREEN_HEIGHT, SCREEN_WIDTH
